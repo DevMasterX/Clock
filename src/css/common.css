@@ -1,0 +1,4 @@
+.date-wrapper,
+.time-wrapper {
+  display: flex;
+}
