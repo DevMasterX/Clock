@@ -1,3 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none; /* Убираем рамки, если они не нужны */
+  background: none; /* Убираем фон, если он задается по умолчанию */
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 .date-wrapper,
 .time-wrapper {
   display: flex;
